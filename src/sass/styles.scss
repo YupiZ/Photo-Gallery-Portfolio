@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+$layout-breakpoint-small: 960px;
+
+body{
+	// box-sizing: border-box;
+	font-family: 'Rubik', sans-serif;
+	background: rgb(71, 60, 119);
+	overflow-x:hidden ;
+
+}
+
+
+
+.bg-img{
+		width: 100vw;
+		height: 100vh;
+		min-height: 40rem;
+		object-fit: cover;
+		filter: brightness(0.6);
+		position: absolute;
+		top:0;
+		left: 0;
+		z-index: -1;
+
+
+	}
+nav
+
+
+	.navbar-brand{
+		font-size: 1.75em;
+	}
+
+	.navbar-nav{
+		font-size: 1.5em;
+	}
+
+	#carouselFade
+		.carousel-item img{
+			object-position: center;
+			overflow: hidden;
+			height:65vh;
+			width: 100%;
+			transition-duration: 1.5s;
+
+		}
